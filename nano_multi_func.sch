@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 02 Jan 2011 08:08:25 PM PST
+EESchema Schematic File Version 2  date Sun 02 Jan 2011 08:14:24 PM PST
 LIBS:power,./nano_multi_func,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./nano_multi_func.cache
 EELAYER 24  0
 EELAYER END
@@ -147,9 +147,9 @@ Wire Wire Line
 Wire Wire Line
 	5850 6650 6200 6650
 Wire Wire Line
-	4950 1400 4700 1400
+	5650 1050 5400 1050
 Wire Wire Line
-	6150 1400 5900 1400
+	5600 1900 5350 1900
 Wire Wire Line
 	7700 4650 7400 4650
 Wire Wire Line
@@ -328,11 +328,11 @@ Wire Wire Line
 	10400 900  10600 900 
 Connection ~ 10400 1300
 Wire Wire Line
-	5850 1700 5850 1600
+	5300 2200 5300 2100
 Wire Wire Line
-	4950 1600 4700 1600
+	5650 1250 5400 1250
 Wire Wire Line
-	4700 1600 4700 1700
+	5400 1250 5400 1350
 Wire Wire Line
 	4600 6750 4200 6750
 Wire Wire Line
@@ -388,9 +388,9 @@ Wire Wire Line
 Wire Wire Line
 	7700 5250 7400 5250
 Wire Wire Line
-	6150 1500 5900 1500
+	5600 2000 5350 2000
 Wire Wire Line
-	5850 1600 6150 1600
+	5300 2100 5600 2100
 Wire Wire Line
 	6200 6550 5850 6550
 Wire Wire Line
@@ -976,37 +976,37 @@ F 1 "CONN_3" V 6600 6650 40  0000 C CNN
 	1    6550 6650
 	1    0    0    -1  
 $EndComp
-Text Notes 4500 1850 0    60   ~ 0
+Text Notes 5200 1500 0    60   ~ 0
 EXT INTERRUPT
-Text Label 4700 1600 0    60   ~ 0
+Text Label 5400 1250 0    60   ~ 0
 GND
 $Comp
 L CONN_2 P4
 U 1 1 4D211044
-P 5300 1500
-F 0 "P4" V 5250 1500 40  0000 C CNN
-F 1 "CONN_2" V 5350 1500 40  0000 C CNN
-	1    5300 1500
+P 6000 1150
+F 0 "P4" V 5950 1150 40  0000 C CNN
+F 1 "CONN_2" V 6050 1150 40  0000 C CNN
+	1    6000 1150
 	1    0    0    -1  
 $EndComp
-Text Label 4700 1400 0    60   ~ 0
+Text Label 5400 1050 0    60   ~ 0
 INT
 $Comp
 L GND #PWR019
 U 1 1 4D210FF4
-P 4700 1700
-F 0 "#PWR019" H 4700 1700 30  0001 C CNN
-F 1 "GND" H 4700 1630 30  0001 C CNN
-	1    4700 1700
+P 5400 1350
+F 0 "#PWR019" H 5400 1350 30  0001 C CNN
+F 1 "GND" H 5400 1280 30  0001 C CNN
+	1    5400 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR020
 U 1 1 4D210FF1
-P 5850 1700
-F 0 "#PWR020" H 5850 1700 30  0001 C CNN
-F 1 "GND" H 5850 1630 30  0001 C CNN
-	1    5850 1700
+P 5300 2200
+F 0 "#PWR020" H 5300 2200 30  0001 C CNN
+F 1 "GND" H 5300 2130 30  0001 C CNN
+	1    5300 2200
 	1    0    0    -1  
 $EndComp
 Text Label 700  1400 0    60   ~ 0
@@ -1129,7 +1129,7 @@ F 1 "CONN_2" V 11000 800 40  0000 C CNN
 $EndComp
 Text Notes 8650 4450 0    60   ~ 0
 SOLID STATE RELAYS
-Text Notes 5700 1850 0    60   ~ 0
+Text Notes 5150 2350 0    60   ~ 0
 CLOCK & DIRECTION
 Text Label 7400 5250 0    60   ~ 0
 SSR1
@@ -1182,19 +1182,19 @@ F 1 "SSR_DC_6PIN" H 9150 4550 60  0000 C CNN
 	1    9150 4750
 	1    0    0    -1  
 $EndComp
-Text Label 5900 1600 0    60   ~ 0
+Text Label 5350 2100 0    60   ~ 0
 GND
-Text Label 5900 1500 0    60   ~ 0
+Text Label 5350 2000 0    60   ~ 0
 CLK
-Text Label 5900 1400 0    60   ~ 0
+Text Label 5350 1900 0    60   ~ 0
 DIR
 $Comp
 L CONN_3 K1
 U 1 1 4D1E8D40
-P 6500 1500
-F 0 "K1" V 6450 1500 50  0000 C CNN
-F 1 "CONN_3" V 6550 1500 40  0000 C CNN
-	1    6500 1500
+P 5950 2000
+F 0 "K1" V 5900 2000 50  0000 C CNN
+F 1 "CONN_3" V 6000 2000 40  0000 C CNN
+	1    5950 2000
 	1    0    0    -1  
 $EndComp
 Text Label 9300 2200 2    60   ~ 0
