@@ -1,0 +1,23 @@
+part          description                               vendor                 Qty
+------------------------------------------------------------------------------------------
+C1           0.1uF cerm. cap., 5mm lead spac.      Digikey  490-3859-ND             1
+C2           10uF  tant. cap., 5mm lead spac.      Digikey  478-4170-ND             1
+C3           0.1uF cerm. cap., 5mm lead spac.      Digikey  490-3859-ND             1
+C4,C5        1.0uF cerm. cap., 5mm lead spac.      Digikey  445-2852-ND             2 
+C6,C7        0.1uf cerm. cap., 5mm lead spac.      Digikey  490-3859-ND             2
+C8,C9        10uF  tant. cap., 5mm lead spac.      Digikey  478-4170-ND             1
+C10          0.33uF cerm. cap., 5mm lead spac.     Digikey  445-5263-ND             1
+C11          4.7uF tant. cap., 5mm lead spac.      Digikey  478-4179-ND             1
+C12          0.1uF cerm. cap., 5mm lead spac.      Digikey  490-3859-ND             1
+C13          0.01uF cerm. cap., 5mm lead spac.     Digikey  BC2662CT-ND             1
+C14          4.7uF tant. cap., 5mm lead spac.      Digikey  478-4179-ND             1
+
+
+
+U2           Dual digital Pot., SPI,  5k           Digikey MCP4261-502E/P-ND        1
+             Dual digital Pot., SPI,  10k          Digikey MCP4261-103E/P-ND
+
+U5, U6       AD623 Instrumentation amplifier       Digikey  AD623ANZ-ND             2
+
+
+U8           Max1270, Multi-range 12 A/D           Jameco 2110852                   1

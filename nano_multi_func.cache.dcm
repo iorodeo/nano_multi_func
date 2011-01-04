@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Sun 02 Jan 2011 08:14:24 PM PST
+EESchema-DOCLIB  Version 2.0  Mon 03 Jan 2011 05:29:46 PM PST
 #
 $CMP C
 D Condensateur non polarise
@@ -9,7 +9,17 @@ D Symbole general de connecteur
 K CONN
 $ENDCMP
 #
+$CMP CONN_2X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
 $CMP CONN_3
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_4
 D Symbole general de connecteur
 K CONN
 $ENDCMP

@@ -1,0 +1,9 @@
+PCBNEW-LibDoc----V1  Mon 03 Jan 2011 04:55:10 PM PST
+#
+$MODULE CP2
+Li CP2
+Cd Condensateur = 2 pas
+Kw C
+$EndMODULE
+#
+$EndLIBDOC
