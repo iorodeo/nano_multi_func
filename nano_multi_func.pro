@@ -1,5 +1,5 @@
-update=Mon 03 Jan 2011 04:56:20 PM PST
-last_client=cvpcb
+update=Sat 08 Jan 2011 11:05:39 PM PST
+last_client=pcbnew
 [general]
 version=1
 RootSch=nano_multi_func.sch
@@ -69,6 +69,13 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+[cvpcb]
+version=1
+NetIExt=.net
+[cvpcb/libraries]
+EquName1=devcms
+[common]
+NetDir=
 [pcbnew]
 version=1
 PadDrlX=320
@@ -117,10 +124,3 @@ LibName8=display
 LibName9=valves
 LibName10=led
 LibName11=dip_sockets
-[cvpcb]
-version=1
-NetIExt=.net
-[cvpcb/libraries]
-EquName1=devcms
-[common]
-NetDir=

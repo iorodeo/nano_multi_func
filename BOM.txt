@@ -11,13 +11,25 @@ C11          4.7uF tant. cap., 5mm lead spac.      Digikey  478-4179-ND         
 C12          0.1uF cerm. cap., 5mm lead spac.      Digikey  490-3859-ND             1
 C13          0.01uF cerm. cap., 5mm lead spac.     Digikey  BC2662CT-ND             1
 C14          4.7uF tant. cap., 5mm lead spac.      Digikey  478-4179-ND             1
-
-
-
-U2           Dual digital Pot., SPI,  5k           Digikey MCP4261-502E/P-ND        1
-             Dual digital Pot., SPI,  10k          Digikey MCP4261-103E/P-ND
-
+K1-k7        3 pos conn. term. block, 3.5mm        Jameco   2094514
+P1           2.5mm DC Jack, 3pin                   Jameco   101186                  1 
+P2           2x2 straight header, 0.1"             Jameco   15156                   1
+P3           2 pos conn. term. block, 3.5mm        Jameco   2094506                 2
+P4           2 pos conn. term. block, 3.5mm        Jameco   2094506                 2
+P5,P6        socket BNC connector                  Digikey  A97555-ND               2 
+P7           2x2 straight header, 0.1"             Jameco   15156                   1
+P8,P9        4x2 straight header, 0.1"             Jameco   109517                  2
+P10,P11      2 pos conn. term. block, 3.5mm        Jameco   2094506                 2
+P12-P19      socket BNC connector                  Digikey  A97555-ND               2 
+R1,R2        resistor (69.8K) ... 1%?? (check this)     
+R3           68 Ohm resistor, 5%, 1/2W             Jameco    661221                 1      
+R4,R5        150 Ohm resistor, 5% 1/4W              
+U1           MCP4822, Dual A/D, SPI                Digikey  MCP4822-E/P-ND          1
+U2           Dual digital Pot., SPI,  5k           Digikey  MCP4261-502E/P-ND       1
+             Dual digital Pot., SPI,  10k          Digikey  MCP4261-103E/P-ND
+U3           DC to DC converter 5V, 10W            Jameco   216953                  1
+U4           DC to DC converter 12V, 10W           Jameco   217024                  1
 U5, U6       AD623 Instrumentation amplifier       Digikey  AD623ANZ-ND             2
-
-
-U8           Max1270, Multi-range 12 A/D           Jameco 2110852                   1
+U7           Arduino Nano                          Jamco    2121148                 1
+U8           Max1270, Multi-range 12 A/D           Jameco   2110852                 1
+U9,U10       SSR 60V, 1A, DIP 6                    Jameco   1583041                 2 
