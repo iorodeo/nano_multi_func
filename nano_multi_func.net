@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 08 Jan 2011 11:21:59 PM PST
+# EESchema Netlist Version 1.1 created  Mon 10 Jan 2011 02:50:13 PM PST
 (
  ( /4D213EFE C2 C1 0.1uF
   ( 1 /+5V )
@@ -120,7 +120,7 @@
   ( 1 N-000012 )
   ( 2 /GND )
  )
- ( /4D221EBE PIN_ARRAY_2X1 P7 CONN_2X2
+ ( /4D221EBE PIN_ARRAY_2X2 P7 CONN_2X2
   ( 1 /RST )
   ( 2 N-000009 )
   ( 3 ? )
@@ -206,7 +206,7 @@
   ( 1 N-000025 )
   ( 2 /SSR1 )
  )
- ( /4D213D10 DIP-8__300 U1 MPC48XX
+ ( /4D213D10 DIP-8__300 U1 MCP48XX
   ( 1 /+5V )
   ( 2 /CS1 )
   ( 3 /SCK )

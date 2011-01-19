@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 08 Jan 2011 11:15:00 PM PST
+EESchema Schematic File Version 2  date Mon 10 Jan 2011 03:50:16 PM PST
 LIBS:power,./nano_multi_func,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./nano_multi_func.cache
 EELAYER 24  0
 EELAYER END

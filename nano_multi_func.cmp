@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20090216-final) date = Sat 08 Jan 2011 11:21:59 PM PST
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Mon 10 Jan 2011 02:50:13 PM PST
 
 BeginCmp
 TimeStamp = /4D213EFE;
@@ -193,7 +193,7 @@ BeginCmp
 TimeStamp = /4D221EBE;
 Reference = P7;
 ValeurCmp = CONN_2X2;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = PIN_ARRAY_2X2;
 EndCmp
 
 BeginCmp
@@ -318,7 +318,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4D213D10;
 Reference = U1;
-ValeurCmp = MPC48XX;
+ValeurCmp = MCP48XX;
 IdModule  = DIP-8__300;
 EndCmp
 
