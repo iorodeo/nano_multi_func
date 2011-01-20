@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 08 Jan 2011 11:15:00 PM PST
+EESchema Schematic File Version 2  date Wed 19 Jan 2011 05:15:06 PM PST
 LIBS:power,./nano_multi_func,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./nano_multi_func.cache
 EELAYER 24  0
 EELAYER END
@@ -13,6 +13,28 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 4400 1250
+NoConn ~ 4400 1550
+Text Label 9650 2400 0    60   ~ 0
+AIN7
+Text Label 9650 2300 0    60   ~ 0
+AIN6
+Text Label 9650 2200 0    60   ~ 0
+AIN5
+Text Label 9650 2100 0    60   ~ 0
+AIN4
+Text Label 9650 2000 0    60   ~ 0
+AIN3
+Text Label 9650 1900 0    60   ~ 0
+AIN2
+Text Label 9650 1800 0    60   ~ 0
+AIN1
+Text Label 9650 1700 0    60   ~ 0
+AIN0
+Text Label 4950 7250 0    60   ~ 0
+AOUT1
+Text Label 4950 5900 0    60   ~ 0
+AOUT0
 Connection ~ 1500 1100
 Wire Wire Line
 	1500 1100 1500 1000
@@ -309,8 +331,6 @@ Wire Wire Line
 Wire Wire Line
 	7350 2400 7350 2300
 Wire Wire Line
-	3900 1350 3900 1250
-Wire Wire Line
 	6400 1650 6100 1650
 Wire Wire Line
 	6400 2350 6100 2350
@@ -402,8 +422,6 @@ Wire Wire Line
 Wire Wire Line
 	4400 1350 4050 1350
 Wire Wire Line
-	4400 1550 4050 1550
-Wire Wire Line
 	4400 1750 4050 1750
 Wire Wire Line
 	4400 1950 4050 1950
@@ -411,8 +429,6 @@ Wire Wire Line
 	4400 2150 4050 2150
 Wire Wire Line
 	4400 2350 4050 2350
-Wire Wire Line
-	3900 1250 4400 1250
 Wire Wire Line
 	7300 5300 7000 5300
 Wire Wire Line
@@ -1547,40 +1563,27 @@ F 1 "68" V 6950 1850 50  0000 C CNN
 $EndComp
 Text Label 6400 1150 2    60   ~ 0
 RST
-Text Label 4050 1250 0    60   ~ 0
-GND
-$Comp
-L GND #PWR027
-U 1 1 4D1E8590
-P 3900 1350
-F 0 "#PWR027" H 3900 1350 30  0001 C CNN
-F 1 "GND" H 3900 1280 30  0001 C CNN
-	1    3900 1350
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4400 1150
 Text Label 6400 1050 2    60   ~ 0
 GND
 $Comp
-L GND #PWR028
+L GND #PWR027
 U 1 1 4D1E8545
 P 6850 1000
-F 0 "#PWR028" H 6850 1000 30  0001 C CNN
+F 0 "#PWR027" H 6850 1000 30  0001 C CNN
 F 1 "GND" H 6850 930 30  0001 C CNN
 	1    6850 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG029
+L PWR_FLAG #FLG028
 U 1 1 4D1E8523
 P 6850 800
-F 0 "#FLG029" H 6850 1070 30  0001 C CNN
+F 0 "#FLG028" H 6850 1070 30  0001 C CNN
 F 1 "PWR_FLAG" H 6850 1030 30  0000 C CNN
 	1    6850 800 
 	1    0    0    -1  
 $EndComp
-Text Label 4050 1550 0    60   ~ 0
-DIR
 Text Label 4050 2050 0    60   ~ 0
 CLK
 Text Label 4050 1950 0    60   ~ 0
