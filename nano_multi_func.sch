@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 25 Jan 2011 04:18:18 PM PST
+EESchema Schematic File Version 2  date Fri 28 Jan 2011 03:03:05 PM PST
 LIBS:power,./nano_multi_func,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./nano_multi_func.cache
 EELAYER 24  0
 EELAYER END
@@ -985,7 +985,7 @@ L R R2
 U 1 1 4D214293
 P 4100 6750
 F 0 "R2" V 4180 6750 50  0000 C CNN
-F 1 "69.8K" V 4100 6750 50  0000 C CNN
+F 1 "69.0K" V 4100 6750 50  0000 C CNN
 	1    4100 6750
 	0    1    1    0   
 $EndComp
@@ -1023,7 +1023,7 @@ L R R1
 U 1 1 4D214166
 P 4100 5400
 F 0 "R1" V 4180 5400 50  0000 C CNN
-F 1 "69.8K" V 4100 5400 50  0000 C CNN
+F 1 "69.0K" V 4100 5400 50  0000 C CNN
 	1    4100 5400
 	0    1    1    0   
 $EndComp
