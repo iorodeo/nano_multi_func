@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Fri 28 Jan 2011 03:03:05 PM PST
+EESchema-DOCLIB  Version 2.0  Sun 17 Apr 2011 12:24:36 AM PDT
 #
 $CMP C
 D Condensateur non polarise
@@ -31,6 +31,12 @@ $ENDCMP
 #
 $CMP CP1
 D Condensateur polarise
+$ENDCMP
+#
+$CMP LM741
+D Op amp
+K Ampliop
+F AmpliOp.sch
 $ENDCMP
 #
 $CMP R
