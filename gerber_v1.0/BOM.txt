@@ -1,69 +1,55 @@
 part                   description                               vendor                 Qty
---------------------------------------------------------------------------------------------
-C1,C3,C6,C7,C12    0.1uf cerm. cap., 5mm lead spac.      Digikey  490-3859-ND             10 
-C15,C16,C17,C18         "                   "                 "         "
-C20                     "                   "
+-------------------------------------------------------------------------------------------
+C1,C3,C6,C7,C12    0.1uf cerm. cap., 5mm lead spac.      Digikey  490-3859-ND             5
 C2,C8,C9           10uF  tant. cap., 5mm lead spac.      Digikey  478-4170-ND             3
 C4,C5              1.0uF cerm. cap., 5mm lead spac.      Digikey  445-2852-ND             2 
 C10                0.33uF cerm. cap., 5mm lead spac.     Digikey  445-5263-ND             1
 C11,C14            4.7uF tant. cap., 5mm lead spac.      Digikey  478-4179-ND             2
-C13,C19            0.01uF cerm. cap., 5mm lead spac.     Digikey  BC2662CT-ND             1
+C13                0.01uF cerm. cap., 5mm lead spac.     Digikey  BC2662CT-ND             1
 P5,P6              socket BNC connector                  Digikey  A97555-ND               2 
 P5,P6,P12-P19      socket BNC connector                  Digikey  A97555-ND               10 
 R1,R2              resistor (68.0k) 1%                   Digikey  P68.0KCACT-ND           2
 R4,R5              150 Ohm resistor, 5% 1/4W             Digikey  P150BACT-ND             2            
-R6,R7              1.8k resistor, 5% 1/4W                Digikey  P1.8KBACT-ND            2
-R8,R9              10k resistor,  1% 1/8W                Digikey  P10.0KCACT-ND           2 
-R10,R11            15k resistor,  1% 1/8W                Digikey  P15.0KCACT-ND           2
+R6,R7              1.8k resisto, 5% 1/4W                 Digikey  P1.8KBACT-ND            2
 U2                 Dual digital Pot., SPI,  5k           Digikey  MCP4261-502E/P-ND       1
                    Dual digital Pot., SPI,  10k          Digikey  MCP4261-103E/P-ND       1
-U12,U13            LM741 Op. Amp. 8 Dip                  Digikey  LM741CNNS-ND            2
-U14                4-20mA Transmitter, 16 Dip.           Digikey AD694JNZ-ND              1
 
 U1                 MCP4822, Dual A/D, SPI                Digikey  MCP4822-E/P-ND          1
                                                          Mouser   579-MCP4822-E/P
 
-K1-K8              3 pos conn. term. block, 3.5mm        Jameco   2094514                 8
+K1-k7              3 pos conn. term. block, 3.5mm        Jameco   2094514                 7
 P1                 2.5mm DC Jack, 3pin                   Jameco   101186                  1 
-P2,P7,P20          2x2 straight header, 0.1"             Jameco   15156                   3
+P2,P7              2x2 straight header, 0.1"             Jameco   15156                   2
 P3,P4,P10,P11      2 pos conn. term. block, 3.5mm        Jameco   2094506                 5
 P8,P9              4x2 straight header, 0.1"             Jameco   109517                  2
 R3                 68 Ohm resistor, 5%, 1/2W             Jameco   661221                  1      
 U3                 DC to DC converter 5V, 10W            Jameco   216953                  1
-U11                DC to DC converter -12V,12V, 10W      Jameco   1953090                 1
+U4                 DC to DC converter 12V, 10W           Jameco   217024                  1
 U7                 Arduino Nano                          Jameco   2121148                 1
 U8                 Max1270, Multi-range 12 A/D           Jameco   2110852                 1
 U9,U10             SSR 60V, 1A, DIP 6                    Jameco   1583041                 2 
 
-U1,U12,U13         Dip Socket 4x2                        Jameco   526299                  3
+U1,U5,U6           Dip Socket 4x2                        Jameco   526299                  3
 U2                 Dip Socket 7x2                        Jameco   37162                   1
 U8                 Dip Socket 12x2                       Jameco   39378                   1
-U14                Dip Socket 8x2                        Jameco   112222                  1
 
 
 Digikey Order
 -------------------------------------------------------------------------------------------
-C1,C3,C6,C7,C12    0.1uf cerm. cap., 5mm lead spac.      Digikey  490-3859-ND             10 
-C15,C16,C17,C18         "                   "                 "         "
-C20                     "                   "
+C1,C3,C6,C7,C12    0.1uf cerm. cap., 5mm lead spac.      Digikey  490-3859-ND             5
 C2,C8,C9           10uF  tant. cap., 5mm lead spac.      Digikey  478-4170-ND             3
 C4,C5              1.0uF cerm. cap., 5mm lead spac.      Digikey  445-2852-ND             2 
 C10                0.33uF cerm. cap., 5mm lead spac.     Digikey  445-5263-ND             1
 C11,C14            4.7uF tant. cap., 5mm lead spac.      Digikey  478-4179-ND             2
-C13,C19            0.01uF cerm. cap., 5mm lead spac.     Digikey  BC2662CT-ND             1
-P5,P6              socket BNC connector                  Digikey  A97555-ND               2 
+C13                0.01uF cerm. cap., 5mm lead spac.     Digikey  BC2662CT-ND             1
 P5,P6,P12-P19      socket BNC connector                  Digikey  A97555-ND               10 
 R1,R2              resistor (68.0k) 1%                   Digikey  P68.0KCACT-ND           2
 R4,R5              150 Ohm resistor, 5% 1/4W             Digikey  P150BACT-ND             2            
-R6,R7              1.8k resistor, 5% 1/4W                Digikey  P1.8KBACT-ND            2
-R8,R9              10k resistor,  1% 1/8W                Digikey  P10.0KCACT-ND           2 
-R10,R11            15k resistor,  1% 1/8W                Digikey  P15.0KCACT-ND           2
+R6,R7              1.8k resisto, 5% 1/4W                 Digikey  P1.8KBACT-ND            2
 U2                 Dual digital Pot., SPI,  5k           Digikey  MCP4261-502E/P-ND       1
                    Dual digital Pot., SPI,  10k          Digikey  MCP4261-103E/P-ND       1
-U12,U13            LM741 Op. Amp. 8 Dip                  Digikey  LM741CNNS-ND            2
-U14                4-20mA Transmitter, 16 Dip.           Digikey AD694JNZ-ND              1
+U5, U6             AD623 Instrumentation amplifier       Digikey  AD623ANZ-ND             2
 
-U1                 MCP4822, Dual A/D, SPI                Digikey  MCP4822-E/P-ND          1
 
 Mouser Order
 -------------------------------------------------------------------------------------------
@@ -72,20 +58,19 @@ U1                 MCP4822, Dual A/D, SPI                Mouser   579-MCP4822-E/
 
 Jameco Order
 -------------------------------------------------------------------------------------------
-K1-K8              3 pos conn. term. block, 3.5mm        Jameco   2094514                 8
+K1-k7              3 pos conn. term. block, 3.5mm        Jameco   2094514                 7
 P1                 2.5mm DC Jack, 3pin                   Jameco   101186                  1 
-P2,P7,P20          2x2 straight header, 0.1"             Jameco   15156                   3
+P2,P7              2x2 straight header, 0.1"             Jameco   15156                   2
 P3,P4,P10,P11      2 pos conn. term. block, 3.5mm        Jameco   2094506                 5
 P8,P9              4x2 straight header, 0.1"             Jameco   109517                  2
 R3                 68 Ohm resistor, 5%, 1/2W             Jameco   661221                  1      
 U3                 DC to DC converter 5V, 10W            Jameco   216953                  1
-U11                DC to DC converter -12V,12V, 10W      Jameco   1953090                 1
+U4                 DC to DC converter 12V, 10W           Jameco   217024                  1
 U7                 Arduino Nano                          Jameco   2121148                 1
 U8                 Max1270, Multi-range 12 A/D           Jameco   2110852                 1
-U9,U10             SSR 60V, 1A, DIP 6                    Jameco   1583041                 2 
 
-U1,U12,U13         Dip Socket 4x2                        Jameco   526299                  3
+U1,U5,U6           Dip Socket 4x2                        Jameco   526299                  3
 U2                 Dip Socket 7x2                        Jameco   37162                   1
 U8                 Dip Socket 12x2                       Jameco   39378                   1
-U14                Dip Socket 8x2                        Jameco   112222                  1
+
 

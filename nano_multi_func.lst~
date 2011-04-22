@@ -1,0 +1,68 @@
+EESchema (20090216-final)  >> Creation date: Thu 21 Apr 2011 04:22:01 PM PDT
+
+#Cmp ( order = Reference )
+*| C1         0.1uF       
+*| C2         10uF        
+*| C3         0.1uF       
+*| C4         1uF         
+*| C5         1uF         
+*| C10        0.33uF      
+*| C11        4.7uF       
+*| C12        0.1uF       
+*| C13        0.01uF      
+*| C14        4.7uF       
+*| C15        0.1uF       
+*| C16        0.1uF       
+*| C17        0.1uF       
+*| C18        0.1uF       
+*| C19        0.01uF      
+*| C20        0.1uF       
+*| K1         CONN_3      
+*| K2         CONN_3      
+*| K3         CONN_3      
+*| K4         CONN_3      
+*| K5         CONN_3      
+*| K6         CONN_3      
+*| K7         CONN_3      
+*| K8         CONN_3      
+*| P1         CONN_3      
+*| P2         CONN_2X2    
+*| P3         CONN_4      
+*| P4         CONN_2      
+*| P5         CONN_2      
+*| P6         CONN_2      
+*| P7         CONN_2X2    
+*| P8         CONN_4X2    
+*| P9         CONN_4X2    
+*| P12        CONN_2      
+*| P13        CONN_2      
+*| P14        CONN_2      
+*| P15        CONN_2      
+*| P16        CONN_2      
+*| P17        CONN_2      
+*| P18        CONN_2      
+*| P19        CONN_2      
+*| P20        CONN_2X2    
+*| R3         68          
+*| R4         R           
+*| R5         R           
+*| R6         R           
+*| R7         R           
+*| R8         20k         
+*| R9         20k         
+*| R10        30k         
+*| R11        30k         
+*| U1         MCP48XX     
+*| U2         MCP42X1-PDIP
+*| U3         DC_TO_DC_5V 
+*| U7         ARDUINO_NANO
+*| U8         MAX1270-PDIP
+*| U9         SSR_DC_6PIN 
+*| U10        SSR_DC_6PIN 
+*| U11        DUAL_DC_TO_DC
+*| U12        LM741       
+*| U13        LM741       
+*| U14        AD694       
+#End Cmp
+
+#End List
