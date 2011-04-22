@@ -1,20 +1,20 @@
 Drill report for /home/wbd/work/iorodeo/products/nano_multi_func/nano_multi_func/nano_multi_func.brd
-Created on Tue 25 Jan 2011 04:26:24 PM PST
+Created on Thu 21 Apr 2011 07:39:40 PM PDT
 Selected Drill Unit: Imperial (")
 
 Drill report for through holes :
-T1  0.025"  0.64mm  (21 holes)
-T2  0.032"  0.81mm  (116 holes)
+T1  0.025"  0.64mm  (17 holes)
+T2  0.032"  0.81mm  (140 holes)
 T3  0.035"  0.89mm  (20 holes)
 T4  0.039"  0.99mm  (30 holes)
-T5  0.039"  1.00mm  (6 holes)
-T6  0.040"  1.02mm  (24 holes)
+T5  0.039"  1.00mm  (2 holes)
+T6  0.040"  1.02mm  (28 holes)
 T7  0.045"  1.14mm  (10 holes)
-T8  0.047"  1.20mm  (25 holes)
+T8  0.047"  1.20mm  (28 holes)
 T9  0.079"  2.01mm  (30 holes)
 T10  0.110"  2.79mm  (2 holes)
 T11  0.120"  3.05mm  (5 holes)
 
-total holes count 289
+total holes count 312
 
 
